@@ -1,0 +1,13 @@
+{
+  "name": "elarapath-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Elara Path Rehabilitation marketing site",
+  "scripts": {
+    "dev": "serve -l 5173",
+    "start": "serve -s . -l 4173"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
