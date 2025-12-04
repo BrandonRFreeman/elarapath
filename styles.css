@@ -105,9 +105,24 @@ img {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--white);
   font-weight: 600;
   letter-spacing: 0.5px;
+}
+
+.logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -555,6 +570,14 @@ img {
 
   .section {
     padding: 64px 0;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .logo-img {
+    height: 38px;
   }
 
   .timeline-item {
